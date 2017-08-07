@@ -11,6 +11,7 @@ My name is Tom. I am 21 years old. I am a Student. I am at Class 2.
 但是Student的class属性不是一个数字，而是一个对象，写一个Class类，有number属性还有一个leader属性。但是leader属性不在构造器里。
 
 Student构造的时候把Class的一个实例传给Student，参见测试用例。
+
 Class有一个assignLeader方法，接收一个Student实例。意为将一名学生设置为该Class的班长。
 如果Class的Leader是Tom，那么Tom调用introduce的方法就要返回：
 
